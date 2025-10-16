@@ -102,12 +102,11 @@
   }
 
   .problem-title {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
 
-  .problem-subtitle,
-  .problem-list {
-    font-size: 0.95rem;
+  .problem-subtitle {
+    font-size: 1.1rem;
   }
 
   .problem-left img {
