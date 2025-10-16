@@ -1,0 +1,77 @@
+.services-section {
+  color: #e6f7ff;
+  padding: 100px 60px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.services-title {
+  font-size: 2.5rem;
+  color: #64dcff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.services-subtitle {
+  font-size: 1.3rem;
+  color: #fff;
+  margin-bottom: 60px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
+
+.service-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(100, 220, 255, 0.3);
+  border-radius: 20px;
+  padding: 30px 20px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(100, 220, 255, 0.15);
+  transition: all 0.3s ease;
+}
+.service-card h3{
+  font-weight: bold;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 35px rgba(100, 220, 255, 0.7);
+  border-color: rgba(100, 220, 255, 0.7);
+}
+
+/* React Icon Glow */
+.service-icon {
+  font-size: 1.5rem;
+  color: #64dcff;
+  margin-bottom: 15px;
+  display: block;
+  text-shadow:
+    0 0 5px #64dcff,
+    0 0 10px #64dcff,
+    0 0 20px #64dcff,
+    0 0 30px rgba(100, 220, 255, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .services-section {
+    padding: 80px 30px;
+  }
+
+  .services-grid {
+    gap: 30px;
+  }
+
+  .service-card {
+    width: 100%;
+  }
+}
