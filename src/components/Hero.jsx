@@ -22,7 +22,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="hero-subtitle"
         >
-          We provide from smart software to secure digital solutions, we help businesses simplify operations, save time, and grow faster.
+        From smart software to secure digital solutions, we help businesses simplify operations, save time, and grow faster.
         </motion.p>
         <motion.button
           whileHover={{ scale: 1.05 }}
